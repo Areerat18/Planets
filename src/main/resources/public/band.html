@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W3.CSS Template</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html"    class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="band.html"     class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+            <a href="tour.html"     class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+            <a href="contact.html"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- The Band Section -->
+<div class="w3-black" id="band">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide">ดาวเคราะห์ (Planets)</h2>
+    <p class="w3-opacity"><i>ดาวเคราะห์ คืออะไร ??</i></p>
+    <p class="w3-justify">ดาวเคราะห์ เป็นดาวที่ไม่มีแสงในตัวเอง ไม่เหมือนกับดวงอาทิตย์ หรือดาวฤกษ์ ซึ่งสามารถส่องสว่างด้วยตนเองได้ 
+      แต่เราสามารถมองเห็นดาวเคราะห์ได้ เนื่องจากการที่ดาวเคราะห์ สะท้อนแสงจากดวงอาทิตย์ เข้าสู่ตาของเรานั่นเองแม้ดาวเคราะห์ในระบบสุริยะจักรวาลของเรา 
+      จะมีถึง 8 ดวง (ไม่รวมโลก) แต่เราสามารถมองเห็นได้ ด้วยตาเปล่า เพียง 5 ดวงเท่านั้น คือ ดาวพุธ, ดาวศุกร์, ดาวอังคาร, ดาวพฤหัส และดาวเสาร์ เท่านั้น 
+      ซึ่งชาวโบราณเรียก ดาวเคราะห์ทั้งห้านี้ว่า "The Wandering Stars" หรือ "Planetes" ในภาษากรีก และเรียกดวงอาทิตย์ และดวงจันทร์ 
+      ทั้งสองดวงว่า "The Two Great Lights" ซึ่งเมื่อรวมกันทั้งหมด 7 ดวง จะเป็นที่มาของชื่อวัน ใน 1 สัปดาห์ นั่นเอง</p>
+    <p class="w3-opacity"><i> ดาวเคราะห์ทั้ง 8 สามารถแบ่งออกเป็นกลุ่มๆ ได้ดังนี้</i></p>  
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>แบ่งตามลักษณะทางกายภาพ</p>
+        <img src="/images/1 (16).jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>แบ่งตามวงทางโคจร</p>
+        <img src="/images/11.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>แบ่งตามลักษณะพื้นผิว</p>
+        <img src="/images/7.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Website by Areerat Rattanamun</a></p>
+    </footer>
+</body>
+</html>
